@@ -5,6 +5,7 @@
 :root {
     --dark: #1f2937;
     --light: #3882f6;
+    --whitish: #e5e7eb; 
 }
 
 body{
@@ -16,12 +17,12 @@ nav ul li {
     display: inline-block;
     padding-right: 20px;
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--whitish);
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: var(--whitish);
 }
 
 nav ul li a:hover {
@@ -29,7 +30,7 @@ nav ul li a:hover {
 }
 
 nav ul li a:visited {
-    color:bisque;
+    color:black;
 }
 header {
     display: flex;
@@ -40,7 +41,7 @@ header {
 #main_header {
     letter-spacing: -1%;
     font-weight: bolder;
-    color: #F9F5F8;
+    color: var(--whitish);
     font-variant: small-caps;
     font-size: 48px;
     margin-top: -5px;
@@ -73,7 +74,7 @@ header {
     padding: 20px;
     gap: 20px;
     font-size: 28px;
-    color: #F9F5F8;
+    color: var(--whitish);
     font-weight: bolder;
 }
 
@@ -112,7 +113,7 @@ header {
 .quote {
     height: 200px;
     width: 100%;
-    background-color: #e5e7eb;
+    background-color: var(--whitish);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,9 +166,9 @@ header {
 }
 
 .give-button {
-    color: white;
-    border: 1px solid white;
-    border-radius: 5%;
+    color: var(--whitish);
+    border: 1px solid var(--whitish);
+    border-radius: 15px;
     height: 40px;
     width: 160px;
     font-size: 20px;
